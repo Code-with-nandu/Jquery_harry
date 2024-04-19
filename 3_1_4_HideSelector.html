@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery tututrial</title>
+
+</head>
+
+<body>
+    <h1>Jay Gurudev </h1>
+    <section>
+        console.log('Jay Gurudev');
+    </section>
+    <p class="odd">this is parAGRAPH 1.</p>
+    <p id="second">this is paragraph2</p>
+    <p class="even">this is paragraph3</p>
+    <p class="odd">this is paragraph4</p>
+</body>
+<script src="jquery-3.7.1.min.js"></script>
+
+<script>
+    //hide all
+    //$('selector').action()
+    $(document).ready(function () {
+        $('*').click(function () {
+            $(this).hide();
+            console.log('You clicked on element selector');
+        });
+    });
+
+
+</script>
+
+
+</html>
